@@ -1,0 +1,19 @@
+.dissss {
+    display: flex;
+flex-wrap: wrap;
+    align-items: center;
+
+    /* justify-content: space-evenly;    */
+    width: 100%;
+
+    margin: auto;
+    margin-top: 4rem;
+    gap: 1rem;
+
+}
+
+.dissss>img {
+
+    width: 32.2%;
+
+}

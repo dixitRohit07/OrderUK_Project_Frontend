@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.pnavbar1{
+    width: 80vw;
+    margin: auto;
+}
+
+.pnavbar2{
+    width: 80vw;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.navbar2{
+    width: 80vw;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.maclo{
+    width: 80vw;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.maclo img{
+    width: 100%;
+}
+
+.off{
+    width: 80vw; 
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.prodnav2{
+
+    width: 100%;
+    margin-top: 2rem;
+    background: rgba(252, 138, 6, 1);
+    padding: 0;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.dispics{
+    width: 80vw;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 2rem;
+    
+}
+
+.burgerss{
+    width: 80vw;
+    margin-top: 2rem;
+    margin: auto;
+}
+
+
+.friess{
+    width: 80vw;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.Colddrink{
+    width: 80vw;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.delivery{
+    width: 80vw;
+    margin: auto;
+    /* margin-top: 3rem; */
+    margin-top: 3rem;
+    box-shadow: 15px 15px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 15px rgba(0, 0, 0, 0.19);
+}
+
+.delivery img{
+    width: 100%;
+    /* margin-top: 2rem; */
+
+    /* height: 40rem; */
+}
+
+.maps{
+    width: 80vw;
+    margin: auto;
+    margin-top: 6rem;
+}
+
+.customerrev{
+    width: 99vw;
+    height: 35rem;
+    margin: auto;
+    margin-top: 3rem;
+    background-color: rgba(217, 217, 217, 1);
+}
+
+.similarrest{
+    width: 80vw;
+    margin: auto;
+    margin-top: 9rem;
+}
+
+.productFooter{
+    /* width: 100%; */
+    margin: auto;
+    margin-top: 6rem;
+}
+
+.ProductBodyAndCartDesktop{
+    width: 80vw;
+    margin: auto;
+}
+
+
+
+/* MobileView */
+
+
+.RatingMob{
+    width: 90vw;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+
+.RatingMob img{
+    width: 100%;
+    margin: auto;
+
+
+}
+
+.similarrestMob{
+
+    width: 90vw;
+    margin: auto;
+    margin-top: 9rem;
+
+}
+
+
+.customerrev{
+    margin-top: 10rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

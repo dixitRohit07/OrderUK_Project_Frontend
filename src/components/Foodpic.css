@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.foodpic{
+    width:100% ;
+    /* height:20rem ; */
+    /* border: 1px solid black; */
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.foodpic1{
+    width: 31%;
+}
+
+.foodpic1 img{
+    width: 100%;
+}

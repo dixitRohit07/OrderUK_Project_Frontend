@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav1 {
+    border: 1px solid rgb(197, 197, 197);
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 6px 6px;
+
+    /* height: 4rem;
+    width: 100rem; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+
+.div1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+
+.div1 .promoorg{
+    color: rgba(252, 138, 6, 1);
+    font-weight: 700;
+    /* font-size:1rem; */
+    text-decoration: underline;
+    
+}
+
+.div2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+
+.div2 .locationorg{
+    color: rgba(252, 138, 6, 1);
+}
+
+.div3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4rem;
+    width: 22rem;
+    background-color: rgba(2, 134, 67, 1);
+    border-radius: 0px 0px 5px 5px;
+    
+
+
+}
+
+.mycart {
+    /* background-color: rgba(2, 134, 67, 1); */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.blank {
+    /* background-color: rgba(2, 134, 67, 1); */
+    /* border: 1px solid rgba(255, 255, 255, 1); */
+    border-left: 0.1rem solid rgba(255, 255, 255, 1);
+    border-right: 0.1rem solid rgba(255, 255, 255, 1);
+
+    width: 7rem;
+    height: 4rem;
+
+}
+
+.arrow {
+    /* background-color: rgba(2, 134, 67, 1); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

@@ -1,0 +1,294 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.basket {
+    width: 24rem;
+}
+
+.copylink {
+    background-color: rgba(252, 138, 6, 1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0.5rem;
+    height: 8rem;
+    /* margin: auto; */
+
+}
+
+.copylink p {
+    font-weight: 600;
+    line-height: 21px;
+    color: white;
+}
+
+.link {
+    background-color: white;
+    color: rgba(252, 138, 6, 1);
+    font-weight: 500;
+    border-radius: 100px;
+    height: 2.5rem;
+    width: 6.5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart {
+    background-color: rgba(249, 249, 249, 1);
+    margin-top: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.11)
+}
+
+.BascketLogo {
+    background-color: rgba(2, 134, 67, 1);
+    border-radius: 10px 10px 0px 0px;
+    height: 7rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.BascketLogo p {
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.order1 {
+    /* width: 50%; */
+    height: 7rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin-top: 1rem;
+}
+
+.quantity {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 100%;
+    background-color: rgba(252, 138, 6, 1);
+    color: white;
+    font-weight: 700;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.food_name {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.food_name :nth-child(1) {
+    font-weight: 600;
+    color: rgba(2, 134, 67, 1);
+}
+
+.food_name :nth-child(2) {
+    font-weight: 600;
+}
+
+.charges {
+    height: 9rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1.2rem;
+}
+
+.subTotal {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5rem;
+}
+
+.subTotal :nth-child(1) {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.subTotal :nth-child(2) {
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+
+.totalPay {
+    height: 17rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.total {
+    height: 5rem;
+    width: 94%;
+    background-color: rgba(252, 138, 6, 0.8);
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.total :nth-child(1) {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.total :nth-child(2) {
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+.Totalinput1 {
+    border-radius: 50rem;
+    height: 3rem;
+    width: 22rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid rgba(207, 207, 207, 1)
+}
+
+.Totalinput2 {
+    border-radius: 50rem;
+    height: 3rem;
+    width: 22rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid rgba(207, 207, 207, 1)
+}
+
+
+.checkout {
+    height: 13.8rem;
+    /* border: 2px solid black; */
+}
+
+.checkoutbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+
+
+.checkoutDelevery {
+    height: 7rem;
+    width: 10.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    /* border: 10px; */
+    border-radius: 10px;
+    background-color: rgba(238, 238, 238, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.checkoutDelevery img+p {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.checkoutCollection img+p {
+    font-weight: 600;
+    font-size: 1.1rem;
+    opacity: 0.5;
+}
+
+.checkoutCollection :nth-child(3) {
+    opacity: 0.5;
+}
+
+
+.checkoutCollection {
+    height: 7rem;
+    width: 10.5rem;
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    /* border: 10px; */
+    /* border-radius: 10px; */
+    /* background-color: rgba(238, 238, 238, 1); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.checkoutDiv {
+    width: 94%;
+    height: 4.5rem;
+    background-color: rgba(2, 134, 67, 1);
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 1.8rem;
+    margin: auto;
+    margin-top: 1.5rem;
+    cursor: pointer;
+
+    /* text-align: center; */
+
+}
+
+.closeimg{
+    display: none;
+}
+
+
+@media screen and (max-width : 768px) {
+
+    .basket {
+        width: 90vw;
+        /* height: ; */
+        margin: auto;
+    }
+
+    .closeimg{
+        /* width: 3rem;
+        height: 3rem; */
+        display: flex;
+        flex-direction: column;
+        
+        /* justify-content:; */
+        align-items: end;
+    }
+
+    .closeimg img{
+
+        width: 3rem;
+        height: 3rem;
+    }
+
+
+
+
+}

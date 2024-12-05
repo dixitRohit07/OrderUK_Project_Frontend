@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.payBox {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    margin: auto;
+    display: flex;
+}
+
+.paycontainer {
+    width: 50%;
+    background: white;
+    margin: auto;
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: space-between;
+    border-radius: 0.8rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.paycontainer>p {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.cardinfo {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.cardINP {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-items: flex-start;
+}
+
+.cardINP>label {
+    width: 25%;
+    font-size: 1.6rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.cardINP>input {
+    width: 75%;
+    display: flex;
+    border-radius: 0.7rem;
+
+}
+
+.methFooter {
+    width: 100%;
+    padding: 1rem 0;
+    margin: auto;
+    background: rgba(252, 138, 6, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom-left-radius: 0.8rem;
+    border-bottom-right-radius: 0.8rem;
+}
+
+.methfoot1 {
+    width: 25%;
+    height: 70%;
+    /* cursor: pointer; */
+    background-color: rgba(102, 55, 0, 1)
+    
+}
+
+.methfootl , .cancel ,.sChange{
+    cursor: pointer;
+}
+
+
+
+.methfootr {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+@media screen and (max-width:768px) {
+    .paycontainer {
+        width: 80%;
+        /* border: 1px solid red; */
+        margin: auto;
+        /* height: 35%; */
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: space-between;
+        border-radius: 0.7rem;
+
+    }
+
+    .cardINP>label {
+        width: 65%;
+        font-size: 1.6rem;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .paycontainer>p{
+        font-size: 2.5rem;
+    }
+
+}

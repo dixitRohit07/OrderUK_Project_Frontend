@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.ProductBodyAndCartDesk{
+    width: 100%;
+    position: relative;
+}
+
+.ProductBodyAndCartDeskLeft{
+    width: 70%;
+}
+
+.ProductBodyAndCartDeskRight{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+}

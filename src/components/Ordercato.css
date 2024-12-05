@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.linn {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.food {
+    margin-top: 3rem;
+    display: flex;
+    gap: 1.5rem;
+    /* overflow-x: scroll; */
+}
+
+.foodd1 img {
+    width: 100%;
+
+}
+
+.foodd1 p {
+    color: rgba(252, 138, 6, 1);
+}
+
+.foodd1 {
+    width: 30rem;
+    background-color: rgba(245, 245, 245, 1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 10px 10px;
+
+}
+
+.inf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    .food {
+        /* width: 100vw; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* align-items: center; */
+    }
+
+    .linn {
+        margin-top: 2rem;
+        font-size: 1.3rem;
+    }
+
+    .foodd1{
+        width: 40%;
+
+    }
+
+    .inf h2{
+        /* font-weight: 400; */
+        font-size: 1rem;
+    }
+
+    .inf h3{
+        font-size: 1rem;
+
+    }
+   
+}

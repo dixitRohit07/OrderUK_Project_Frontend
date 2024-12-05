@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.Nav2 {
+    width: 95%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    /* padding-left: 6rem; */
+}
+
+.nav2box1 {
+    width: 25%;
+}
+
+.nav2box1 img {
+    width: 13rem;
+}
+
+.nav2box2 {
+    width: 60%;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+
+}
+
+.nav2box2 span {
+    margin: 0;
+    text-align: center;
+}
+
+.nav2box3 {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+.nav2box31 {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    border: 1px solid black;
+    padding: 0.8rem 0 0.8rem 0;
+    background: #03081F;
+    color: aliceblue;
+    gap: 0.2rem;
+}
+#homeSpan{
+    background-color: rgba(252, 138, 6, 1);
+    color: white;
+    border-radius: 100px;
+    width: 7rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+
+
+.nav2box2 span {
+    font-size: 1.5rem;
+
+}
+
+.nav2box2 :nth-child(3){
+
+    cursor: pointer;
+
+}
+
+.nav2box31 span {
+
+    width: 60%;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 1.1rem;
+    margin: 0;
+    font-size: 1.1rem;
+
+}
+
+@media only screen and (max-width: 1260px) {
+    .nav2box2 {
+        width: 58%;
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+
+
+
+@media only screen and (max-width: 1140px) {
+    .nav2box2 {
+        width: 58%;
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .nav2box1 {
+        width: 22%;
+    }
+
+    .nav2box3 {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+
+        color: aliceblue;
+
+    }
+
+    .Nav2 {
+        width: 100%;
+        height: 100%;
+        /* border: 1px solid black; */
+        display: flex;
+        align-items: center;
+        /* padding-left: 6rem; */
+    }
+}
+
+
+
+@media only screen and (max-width: 890px) {
+    .nav2box1 img {
+        width: 10rem;
+    }
+
+    .nav2box2 {
+        width: 62%;
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+
+
+
+@media only screen and (max-width: 780px) {
+    .nav2box2 {
+
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+
+    }
+}

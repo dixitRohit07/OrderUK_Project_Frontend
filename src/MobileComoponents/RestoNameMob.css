@@ -1,0 +1,13 @@
+.restonamessMob{
+    /* width: 100%; */
+    display: flex;
+    /* justify-content: space-between; */
+    overflow-x: scroll;
+    gap: 1rem;
+
+}
+
+
+.restonamessboxMob img{
+    width: 12rem;
+}

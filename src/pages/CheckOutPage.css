@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.checkOut{
+    width: 99vw;
+    height: 100vh;
+}
+
+.checkOutNavbar1{
+    width: 80%;
+    margin: auto;
+}
+
+.checkOutNavbar2{
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.checkArrowMob img{
+    cursor: pointer;
+}
+
+.ordersDetails{
+    width: 78%;
+    margin: auto;
+}
+
+
+.CheckoutSimilarRestaurant{
+    width: 80%;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.checkoutFooter{
+    width: 100%;
+    margin: auto;
+    margin-top: 3rem;
+
+}
+

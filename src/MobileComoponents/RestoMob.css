@@ -1,0 +1,44 @@
+.restboxMob{
+    /* width: 100%; */
+    /* background-color: black; */
+    display: flex;
+    gap: 1rem;
+    overflow-x: scroll;
+    justify-content: center;
+}
+
+.restoMobbox{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.restoMobspan{
+    display: flex;
+    flex-direction: column;
+}
+
+.restoMobbox img{
+    width: 13rem;
+}
+
+.ResttMob{
+    color: #FC8A06;
+    font-size: 1.2rem;
+    /* margin: 0; */
+}
+
+h5{
+    margin-left: 1rem;
+}
+
+@media screen and (max-width:525px) {
+    .restboxMob{
+        /* width: 100%; */
+        /* background-color: black; */
+        display: flex;
+        gap: 1rem;
+        overflow-x: scroll;
+        justify-content:flex-start
+    }
+    
+}

@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* .rest{
+    width: 100vw;
+    margin: auto;
+} */
+
+.slg {
+    font-weight: 700;
+    font-size: 2rem;
+
+}
+
+.restorantss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.3rem;
+    margin-top: 2rem;
+
+}
+
+.restoinfo {
+    background-color: rgba(252, 138, 6, 1);
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.restoinfo img {
+
+    width: 100%;
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .restorantss {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1.3rem;
+        margin-top: 2rem;
+
+    }
+
+    .restoinfo {
+        width: 40%;
+    }
+
+    .restoinfo img {
+        width: 100%;
+    }
+
+    .restoinfo h3 {
+        text-align: center;
+    }
+
+    .slg {
+        font-size: 1.8rem;
+        width: 90%;
+        margin: auto
+        
+    }
+
+
+
+
+}

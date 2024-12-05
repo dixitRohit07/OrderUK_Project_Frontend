@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.burgerr {
+    font-weight: 700;
+    font-size: 1.3rem;
+    /* margin-top: 2rem; */
+    margin-top: 4rem;
+}
+
+.bugercards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+    /* margin-bottom: 2rem; */
+}
+
+.card1 {
+    width: 31rem;
+    height: 15.3rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* border: 2px solid black; */
+
+    display: flex;
+    align-items: center;
+    /* justify-content: ; */
+    /* justify-content:space-around; */
+    /* justify-content: center; */
+}
+
+.cardl {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    margin-left: 1rem;
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+    gap: 1rem;
+}
+
+.lp1 {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.lp3 {
+    font-weight: 700;
+    font-size: 1.2rem;
+
+}
+
+
+/* .cardr .rimg{
+    width: 13rem;
+    height: 13rem;
+} */
+
+.cardr {
+    width: 50%;
+    padding-right: .6rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rimg {
+    /* position: relative; */
+    width: 90%;
+}
+
+.rwhite {
+    position: absolute;
+    /* left: 7rem; */
+    bottom: 0;
+    /* background-color: blue; */
+    /* border: 1px solid; */
+    right: 7.8%;
+
+
+}
+
+.rplus {
+    position: absolute;
+    /* top: 9rem; */
+    /* left: 10rem; */
+    right: 18%;
+    bottom: 9%;
+    cursor: pointer;
+
+}

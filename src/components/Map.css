@@ -1,0 +1,96 @@
+
+.mapp{
+
+    position: relative;
+}
+
+.mmap{
+    overflow: hidden;
+    position: relative;
+    box-shadow: 15px 15px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 15px rgba(0, 0, 0, 0.19);
+}
+
+.mmap iframe{
+    width: 100%;
+    height: 41rem;
+    border: none;
+
+}
+
+.mapdiv{
+    position: absolute;
+    top: 12rem;
+    left: 3rem;
+    width: 25rem;
+    height: 28rem;
+    background-color: rgba(3, 8, 31, 0.97);
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.mapdiv p{
+    margin-left: 3rem;
+
+}
+
+.map1{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.map2{
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: rgba(252, 138, 6, 1);
+}
+
+
+
+.map4{
+    font-weight: 600;
+   
+}
+
+.map5{
+    font-size: 1.2rem;
+   
+
+    color: rgba(252, 138, 6, 1);
+}
+
+.map6{
+    font-weight: 600;
+   
+}
+
+.map7{
+    font-size: 1.2rem;
+   
+
+    color: rgba(252, 138, 6, 1);
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .mapdiv{
+        position: absolute;
+        top: 35%;
+        left: 5%;
+        width: 90%;
+        height: 60%;
+        background-color: rgba(3, 8, 31, 0.97);
+        color: white;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+    }
+    
+  }

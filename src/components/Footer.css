@@ -1,0 +1,177 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.footer {
+    width: 99vw;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+}
+
+.foot1 {
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    align-items: flex-start;
+    padding-top: 2rem;
+}
+
+.foot2 {
+    width: 100%;
+    height: 20%;
+    background-color: rgba(3, 8, 31, 1);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.foot2term {
+    display: flex;
+
+    gap: 2.2rem;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.box1 .logo2 img {
+
+    height: 4rem;
+    width: 18rem;
+}
+
+.box1 .app2 img {
+
+    height: 4rem;
+    width: 23rem;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.box3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.box2text {
+    position: relative;
+
+}
+
+.box2text .boxinput {
+    height: 3rem;
+    width: 22.9rem;
+    background-color: rgba(217, 217, 217, 1);
+
+}
+
+.subscribe {
+    height: 3.2rem;
+    width: 10rem;
+    background-color: rgba(252, 138, 6, 1);
+    border-radius: 100px;
+    border: none;
+    position: absolute;
+    /* right: 45rem; */
+    right: 0.1rem;
+}
+
+.leftt div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+.leftt div li {
+    text-decoration: underline;
+    list-style: none;
+}
+
+
+.leffth3 {
+    margin-bottom: 1rem;
+}
+
+
+.righth3 {
+    margin-bottom: 1rem;
+}
+
+.right div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+.right div li {
+    text-decoration: underline;
+    list-style: none;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    html {
+        font-size: 70%;
+    }
+
+    .foot1 {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        gap: 2rem;
+    }
+
+    .box1 {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box2 {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* margin: auto ; */
+    }
+
+    .foot2term{
+        display: none;
+    }
+
+  .boxinput{
+    font-size: 95%;
+  }
+  .foot2{
+    height: 8vh;
+  }
+}

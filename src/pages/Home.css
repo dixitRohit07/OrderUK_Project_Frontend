@@ -1,0 +1,326 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 80vw;
+    margin: auto;
+}
+
+.navbar1 {
+    width: 100%;
+}
+
+.navbar2 {
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.homepicture {
+    margin-top: 2rem;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.homepicture img {
+    width: 100%;
+
+}
+
+.ordersOffer {
+    width: 80vw;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.foodpicc {
+    width: 80vw;
+    margin: auto;
+    margin-top: 3rem;
+
+}
+
+.ordcategory {
+    width: 80vw;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.popularresto {
+    width: 80vw;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.homepic2 {
+    width: 80vw;
+    height: auto;
+    margin: auto;
+    margin-top: 5.5rem;
+}
+
+.about {
+    width: 80vw;
+    padding-bottom: 5rem;
+    margin: auto;
+    margin-top: 3rem;
+    background-color: rgba(217, 217, 217, 1);
+
+}
+
+.Countn {
+    width: 80vw;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.homefoot {
+    width: 99%;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+
+
+.popularrestoMob {
+    width: 90%;
+    margin: auto;
+    overflow: auto;
+}
+
+.OrderingImg{
+    width: 80vw;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.OrderingImg img{
+    width: 100%;
+    margin: auto;
+}
+
+
+.Partners{
+    width: 80vw;
+    margin: auto;
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.Partners img{
+    width: 48%;
+    margin: auto;
+    /* flex-direction: column; */
+    
+}
+
+
+
+.contactUsDesk{
+    width: 80vw;
+    margin: auto;
+    margin-top: 2rem;
+    display: flex;
+    background: #e7e6e6;
+    border-radius: 12px;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    .ordcategory {
+        width: 100vw;
+        margin: auto;
+        margin-top: 3rem;
+    }
+
+    .popularrestoMob {
+
+        width: 100vw;
+        /* margin: auto; */
+        margin-top: 3rem;
+    }
+
+    .slgg{
+
+        font-weight: 700;
+        font-size: 1.5rem;
+        width: 90%;
+
+        margin: auto;
+        margin-top: 2rem;
+        /* font-size: 1rem; */
+    }
+
+    .CountnMob{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+   
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* mobile View */
+
+
+.navbar1mobile {
+    width: 100vw;
+    height: 10vh;
+}
+
+.nav2mobile {
+    width: 100vw;
+    height: 10vh;
+}
+
+.homeMobileImg {
+    width: 100vw;
+}
+
+.addM {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: 0.5rem;
+    width: 100%;
+}
+
+
+.addM span {
+    font-size: 1.3rem;
+    margin-left: 0.5rem;
+    margin-right: 2rem;
+}
+
+
+.restoMob {
+    /* width: 93vw; */
+
+    padding-left: 1rem;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.slgg{
+    font-weight: 700;
+    font-size: 1.6rem;
+    width: 90%;
+
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.restonamesMob {
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.OrderingImgMobile{
+    width: 90vw;
+    margin: auto;
+    margin-top: 3rem;
+}
+.OrderingImgMobile img{
+    width: 100%;
+    margin: auto;
+}
+
+
+.Partnerss{
+    width: 90vw;
+    margin: auto;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+
+
+.Partnerss img{
+    width: 100%;
+    margin: auto;
+}
+
+
+
+
+
+.ordcategorymob {
+    width: 90vw;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+.aboutMob{
+    width: 95vw;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+
+.CountnMob{
+    width: 100vw;
+    margin: auto;
+    margin-top: 2rem;
+    /* font-size: 1rem; */
+}
+
+
+.homefootMob{
+    width: 99%;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+
+.checkArrowMob{
+    width: 90vw;
+    margin: auto;
+    margin-top: 5rem;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.checkArrowMob :nth-child(2){
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+
+.ordersDetailsMob{
+
+    width: 90vw;
+    margin: auto;
+    margin-top: 3rem;
+
+}
