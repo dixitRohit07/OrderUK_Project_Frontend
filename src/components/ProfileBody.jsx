@@ -52,7 +52,7 @@ const ProfileBody = () => {
 
   const getCardData = async () => {
 
-    const response = await fetch("http://localhost:8000/api/auth/getCardData", {
+    const response = await fetch(`${BASE_URL}/api/auth/getCardData`, {
       method: "GET",
 
     })
