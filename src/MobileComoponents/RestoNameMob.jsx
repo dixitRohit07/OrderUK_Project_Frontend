@@ -1,33 +1,43 @@
 import React from 'react';
 import '../MobileComoponents/RestoNameMob.css'
+import {useNavigate} from 'react-router-dom'
+
 const RestoNameMob = () => {
+
+  
+  const navigate = useNavigate()
+
+
+  function onchangeProductPage (){
+      navigate("/Product")
+  }
   return (
     <div className='restonamessMob' >
       <div className="restonamessboxMob">
-        <img src="macdd.png" alt="" />
+        <img onClick={onchangeProductPage} src="macdd.png" alt="" />
       </div>
 
 
       <div className="restonamessboxMob">
-        <img src="papajohn.png" alt="" />
+        <img onClick={onchangeProductPage} src="papajohn.png" alt="" />
       </div>
       <div className="restonamessboxMob">
-        <img src="kfcc.png" alt="" />
+        <img onClick={onchangeProductPage} src="kfcc.png" alt="" />
       </div>
       <div className="restonamessboxMob">
-        <img src="texass.png" alt="" />
+        <img onClick={onchangeProductPage} src="texass.png" alt="" />
       </div>
       <div className="restonamessboxMob">
-        <img src="burgerkingg.png" alt="" />
+        <img onClick={onchangeProductPage} src="burgerkingg.png" alt="" />
       </div>
       <div className="restonamessboxMob">
-        <img src="shaurmaa.png" alt="" />
+        <img onClick={onchangeProductPage} src="shaurmaa.png" alt="" />
       </div>
       <div className="restonamessboxMob">
-        <img src="kfcc.png" alt="" />
+        <img onClick={onchangeProductPage} src="kfcc.png" alt="" />
       </div>
       <div className="restonamessboxMob">
-        <img src="texass.png" alt="" />
+        <img onClick={onchangeProductPage} src="texass.png" alt="" />
       </div>
 
      
